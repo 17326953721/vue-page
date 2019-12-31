@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vue自定义page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+</head>
+<body>
+	<div id="app">
+		<page-list :totalpage='80' :jumppage="true" @clickpages='clickpages'></page-list>
+	</div>
+
+	<script type="text/javascript" src="js/vue.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0
+}
+.paging {
+  height: 25px;
+  padding: 0 30px 10px;
+  margin-top: 100px;
+  margin-left: 100px;
+  overflow: hidden;
+}
+
+.paging ul {
+  overflow: hidden;
+  float: left;
+}
+
+.paging ul li {
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 3px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 13px;
+  line-height: 22px;
+}
+
+.paging ul li.check {
+  background : linear-gradient(-68deg, rgba(163, 195, 255, 1) 0%, rgba(17, 100, 255, 1) 100%);
+  border: none;
+  color: white;
+  line-height: 25px;
+}
+
+.jump{
+	width: 120px;
+	height: 25px;
+	border-radius: 30px;
+	overflow: hidden;
+  	border: 1px solid #999;
+  	margin-left: 20px;
+  	float: left;
+}
+.jump input, .jump button{
+	outline: none;
+	border:none;
+	background: none;
+	font-size: 14px;
+	width: 60px;
+	height: 100%;
+	text-align: center;
+	float: left;
+}
+.jump button{
+	background : linear-gradient(-68deg, rgba(163, 195, 255, 1) 0%, rgba(17, 100, 255, 1) 100%);
+	border: none;
+	color: white;
+	cursor: pointer;
+}
